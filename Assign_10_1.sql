@@ -1,7 +1,7 @@
 create database bank;
 
 use bank;
-drop table customer;
+
 CREATE TABLE `bank`.`customer` (
   `c_id` VARCHAR(10) NOT NULL,
   `cname` VARCHAR(20) NOT NULL,
